@@ -1,0 +1,71 @@
+* {
+  font-family: "Roboto Mono";
+  line-height: 1.5;
+  font-weight: 400;
+  height: 100%;
+  background-color: #EEEBE2;
+}
+
+#root {
+  height: 100vh;
+}
+
+.mantine-UnstyledButton-root {
+  background-color: #EEEBE2;
+}
+
+.title {
+  font-family: monospace;
+  font-size: 2.5rem;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.footerIcons {
+  width: 30px;
+  height: 30px;
+}
+
+.typeFont {
+  font-family: "Roboto Mono", "Roboto Mono", monospace;
+  font-weight: 400;
+  
+}
+
+.mantine-Button-label {
+  background-color: #D3CFC1;
+}
+
+.skipButton {
+  background-color: #D3CFC1;
+  color: #000000;
+}
+
+.skipButton:hover {
+  background-color: #EEEBE2;
+}
+
+.skipButton .mantine-Text-root{
+  background-color: #D3CFC1;
+  color: #000000;
+}
+
+.skipButton:hover .mantine-Text-root {
+  background-color: #EEEBE2;
+  color: #000000;
+}
+
+.skipButton:hover .mantine-Button-label {
+  background-color: #EEEBE2;
+}
+
+.bodyText {
+  font-family: "Roboto Mono", "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
