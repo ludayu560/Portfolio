@@ -1,14 +1,37 @@
-import { Box, Text } from '@mantine/core';
+import { Flex, List, Text } from '@mantine/core';
 
 const ExperiencePanel = () => {
     return (
-        <Box p="md" style={{ maxWidth: 800, margin: '0 auto' }}>
-            <Box style={{ display: 'flex', alignItems: 'center', marginTop: '20px' }}>
-                <Text size="md" fw={400} className='bodyText'>
-                    I'm studying Co-op Honours Computer Science at the University of Waterloo, graduating 2025.
-                </Text>
-            </Box>
-        </Box>
+        <Flex direction='column' mx={'5vw'} my={'5vh'}>
+            <Text size="md" fw={400} className='bodyText'>
+                4 time "Excellent" co-op rating at the following companies:
+            </Text>
+            <List mb={'20vh'}>
+                <List.Item>            
+                    <Text size="md" fw={400} className='bodyText'>
+                        AvanteIO (startup)
+                    </Text>
+                </List.Item>
+                <List.Item>            
+                    <Text size="md" fw={400} className='bodyText'>
+                        Aisha Comfortable Coliving (startup)
+                    </Text>
+                </List.Item>
+                <List.Item>            
+                    <Text size="md" fw={400} className='bodyText'>
+                        The Department of National Defence
+                    </Text>
+                </List.Item>
+                <List.Item>            
+                    <Text size="md" fw={400} className='bodyText'>
+                        The Regional Municipality of York
+                    </Text>
+                </List.Item>
+            </List>
+            <Text size="md" fw={400} className='bodyText'>
+                I think startups are the best place to learn and grow as a developer. I'm looking for my next startup co-op!
+            </Text>
+        </Flex>
     );
 }
 

@@ -1,14 +1,15 @@
-import { Box, Text } from '@mantine/core';
+import { Flex, Text } from '@mantine/core';
 
 const HobbiesPanel = () => {
     return (
-        <Box p="md" style={{ maxWidth: 800, margin: '0 auto' }}>
-            <Box style={{ display: 'flex', alignItems: 'center', marginTop: '20px' }}>
-                <Text size="md" fw={400} className='bodyText'>
-                    I'm studying Co-op Honours Computer Science at the University of Waterloo, graduating 2025.
-                </Text>
-            </Box>
-        </Box>
+        <Flex direction='column' mx={'5vw'} my={'5vh'}>
+            <Text size="md" fw={400} className='bodyText' pb='15vh'>
+                I'm a TFT enthusiast! I've been playing since Set 6 and I've hit Masters twice! 
+            </Text>
+            <Text size="md" fw={400} className='bodyText'>
+                I've loved the change of pace hiking and camping brought since I was a kid, I'm currently looking to canoe more in the summer!
+            </Text>
+        </Flex>
     );
 }
 
