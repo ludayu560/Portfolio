@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.bmexcs.pickpic",
+            "sha256_cert_fingerprints": [
+                "8F:A0:2D:69:BC:5F:1A:1B:85:BD:8E:D6:DE:52:CB:57:E1:7E:D3:49:13:FD:B0:B5:F7:CB:FD:69:E4:7C:01:CB"
+            ]
+        }
+    }
+]
